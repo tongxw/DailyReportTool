@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9999bd71-7804-427f-a83c-ea6bffabbc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\DailyReportTool.rc2">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="res\DailyReportTool.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="data.xml">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="res\rt_manif.bin">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="res\bin00001.bin">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="res\manifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DailyReportTool.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="DailyReportToolDlg.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAccess.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlUser.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="mexcel.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelWrapper.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapi.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDlg.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDef.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DailyReportTool.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="DailyReportToolDlg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAccess.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlUser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="mexcel.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelWrapper.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapi.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigDlg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DailyReportTool.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
